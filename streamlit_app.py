@@ -13,7 +13,7 @@ st.write('You selected:', options)
 
 # Displaying images on the front end
 
-image = Image.open('sunrise.jpg')
+image = Image.open('https://cdn-images-1.medium.com/v2/resize:fit:800/1*yd873aRTd8HPErm8koHCdA.png')
 
 st.image(image, caption='Sunrise by the mountains')
 
