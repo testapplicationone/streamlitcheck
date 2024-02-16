@@ -10,23 +10,6 @@ options = st.multiselect(
 
 st.write('You selected:', options)
 
-
-# Displaying images on the front end
-
-image = Image.open('https://cdn-images-1.medium.com/v2/resize:fit:800/1*yd873aRTd8HPErm8koHCdA.png')
-
-st.image(image, caption='Sunrise by the mountains')
-
-# Add histogram data
-x1 = np.random.randn(200) - 2
-x2 = np.random.randn(200)
-x3 = np.random.randn(200) + 2
-
-# Group data together
-hist_data = [x1, x2, x3]
-
-group_labels = ['Group 1', 'Group 2', 'Group 3']
-
 # Chart data
 chart_data = pd.DataFrame(
     np.random.randn(20, 3),
